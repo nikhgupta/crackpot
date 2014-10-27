@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require 'thor'
+require 'crackpot'
+require 'crackpot/cli'
+
+Crackpot::CLI.start ARGV
